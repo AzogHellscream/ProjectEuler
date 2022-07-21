@@ -6,7 +6,7 @@ What is the largest prime factor of the number 600851475143 ?
 from math import sqrt
 
 
-def is_prime(n):
+def is_prime(n: int) -> bool:
     if n <= 1:
         return False
     if n == 2:
