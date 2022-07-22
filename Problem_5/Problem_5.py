@@ -11,7 +11,6 @@ def get_smallest_multiple(max_number: int) -> int:
         flag: bool = True
         for number in range(1, max_number):
             if increment % number != 0:
-                print(increment)
                 increment += 1
                 flag = False
                 continue
